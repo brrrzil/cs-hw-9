@@ -7,7 +7,8 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-var botClient = new TelegramBotClient("5302696004:AAFv5cxE0at5jTw8URCe_qn2bMnyWjt1AH0");
+// Не забудьте вписать токен
+var botClient = new TelegramBotClient(" ");
 
 using var cts = new CancellationTokenSource();
 
